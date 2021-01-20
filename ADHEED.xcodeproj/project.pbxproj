@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,16 @@
 		71A097E825B715A4009F631C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A097E625B715A4009F631C /* Main.storyboard */; };
 		71A097EA25B715A5009F631C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A097E925B715A5009F631C /* Assets.xcassets */; };
 		71A097ED25B715A5009F631C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A097EB25B715A5009F631C /* LaunchScreen.storyboard */; };
+		71A4901A25B89E7B00F2C3A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71A4901925B89E7B00F2C3A5 /* GoogleService-Info.plist */; };
+		71A4903625B8AF7F00F2C3A5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A4903525B8AF7F00F2C3A5 /* LoginViewController.swift */; };
+		71A4903B25B8B58900F2C3A5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A4903A25B8B58900F2C3A5 /* SignUpViewController.swift */; };
+		71A4903F25B8B5F900F2C3A5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A4903E25B8B5F900F2C3A5 /* HomeViewController.swift */; };
+		B866A98B1047C382279E0413 /* Pods_ADHEED.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0486B223E022CEE5A1578AEB /* Pods_ADHEED.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0486B223E022CEE5A1578AEB /* Pods_ADHEED.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADHEED.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1539CB9F95BA32E77D4CCF85 /* Pods-ADHEED.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADHEED.debug.xcconfig"; path = "Target Support Files/Pods-ADHEED/Pods-ADHEED.debug.xcconfig"; sourceTree = "<group>"; };
 		71A097DD25B715A4009F631C /* ADHEED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADHEED.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A097E025B715A4009F631C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71A097E225B715A4009F631C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		71A097E925B715A5009F631C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71A097EC25B715A5009F631C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71A097EE25B715A5009F631C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A4901925B89E7B00F2C3A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		71A4903525B8AF7F00F2C3A5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		71A4903A25B8B58900F2C3A5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		71A4903E25B8B5F900F2C3A5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DCF4FC217EF0840F9AD32EBB /* Pods-ADHEED.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADHEED.release.xcconfig"; path = "Target Support Files/Pods-ADHEED/Pods-ADHEED.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B866A98B1047C382279E0413 /* Pods_ADHEED.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		505C37DD7465D3F23A848097 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0486B223E022CEE5A1578AEB /* Pods_ADHEED.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		71A097D425B715A4009F631C = {
 			isa = PBXGroup;
 			children = (
 				71A097DF25B715A4009F631C /* ADHEED */,
 				71A097DE25B715A4009F631C /* Products */,
+				8E6F9C5E7136AFC0BB5C838E /* Pods */,
+				505C37DD7465D3F23A848097 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +81,34 @@
 			children = (
 				71A097E025B715A4009F631C /* AppDelegate.swift */,
 				71A097E225B715A4009F631C /* SceneDelegate.swift */,
-				71A097E425B715A4009F631C /* ViewController.swift */,
+				71A4903825B8AFA400F2C3A5 /* View Controllers */,
 				71A097E625B715A4009F631C /* Main.storyboard */,
 				71A097E925B715A5009F631C /* Assets.xcassets */,
 				71A097EB25B715A5009F631C /* LaunchScreen.storyboard */,
 				71A097EE25B715A5009F631C /* Info.plist */,
+				71A4901925B89E7B00F2C3A5 /* GoogleService-Info.plist */,
 			);
 			path = ADHEED;
+			sourceTree = "<group>";
+		};
+		71A4903825B8AFA400F2C3A5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				71A4903E25B8B5F900F2C3A5 /* HomeViewController.swift */,
+				71A4903A25B8B58900F2C3A5 /* SignUpViewController.swift */,
+				71A097E425B715A4009F631C /* ViewController.swift */,
+				71A4903525B8AF7F00F2C3A5 /* LoginViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8E6F9C5E7136AFC0BB5C838E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1539CB9F95BA32E77D4CCF85 /* Pods-ADHEED.debug.xcconfig */,
+				DCF4FC217EF0840F9AD32EBB /* Pods-ADHEED.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71A097F125B715A5009F631C /* Build configuration list for PBXNativeTarget "ADHEED" */;
 			buildPhases = (
+				0313796F4DFE40C6C73C3523 /* [CP] Check Pods Manifest.lock */,
 				71A097D925B715A4009F631C /* Sources */,
 				71A097DA25B715A4009F631C /* Frameworks */,
 				71A097DB25B715A4009F631C /* Resources */,
+				ED7BB9CEB7FCC61381A0287F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71A097ED25B715A5009F631C /* LaunchScreen.storyboard in Resources */,
+				71A4901A25B89E7B00F2C3A5 /* GoogleService-Info.plist in Resources */,
 				71A097EA25B715A5009F631C /* Assets.xcassets in Resources */,
 				71A097E825B715A4009F631C /* Main.storyboard in Resources */,
 			);
@@ -132,14 +179,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0313796F4DFE40C6C73C3523 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ADHEED-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED7BB9CEB7FCC61381A0287F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ADHEED/Pods-ADHEED-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ADHEED/Pods-ADHEED-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ADHEED/Pods-ADHEED-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		71A097D925B715A4009F631C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A4903625B8AF7F00F2C3A5 /* LoginViewController.swift in Sources */,
 				71A097E525B715A4009F631C /* ViewController.swift in Sources */,
 				71A097E125B715A4009F631C /* AppDelegate.swift in Sources */,
 				71A097E325B715A4009F631C /* SceneDelegate.swift in Sources */,
+				71A4903B25B8B58900F2C3A5 /* SignUpViewController.swift in Sources */,
+				71A4903F25B8B5F900F2C3A5 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +375,7 @@
 		};
 		71A097F225B715A5009F631C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1539CB9F95BA32E77D4CCF85 /* Pods-ADHEED.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +394,7 @@
 		};
 		71A097F325B715A5009F631C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCF4FC217EF0840F9AD32EBB /* Pods-ADHEED.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
