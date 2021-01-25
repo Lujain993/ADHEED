@@ -1,0 +1,6 @@
+framework module Pods_ADHEED {
+  umbrella header "Pods-ADHEED-umbrella.h"
+
+  export *
+  module * { export * }
+}
