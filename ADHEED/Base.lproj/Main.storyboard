@@ -89,6 +89,10 @@
                                             <constraint firstAttribute="height" constant="40" id="QCe-jN-iAA"/>
                                         </constraints>
                                         <state key="normal" title="تسجيل الدخول"/>
+                                        <connections>
+                                            <action selector="LoginTabbed:" destination="e9X-41-kfL" eventType="touchUpInside" id="1nw-Hf-7Dy"/>
+                                            <action selector="LoginTapped:" destination="e9X-41-kfL" eventType="touchUpInside" id="xp5-oq-dL7"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تنبيه" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbh-Vv-oUF">
                                         <rect key="frame" x="0.0" y="180" width="334" height="20.5"/>
@@ -118,6 +122,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Toh-qt-yP9"/>
+                    <connections>
+                        <outlet property="LoginButton" destination="Gqe-yL-8aB" id="MXE-PJ-9cN"/>
+                        <outlet property="emailTextFiled" destination="DXZ-5X-Qj6" id="oRV-Mk-dzF"/>
+                        <outlet property="errorLable" destination="rbh-Vv-oUF" id="3v5-uE-PrQ"/>
+                        <outlet property="passwordTextFiled" destination="g6a-bu-x3B" id="5lH-3K-eNt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oGt-Ds-eVS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -142,7 +152,7 @@
         <!--Home View Controller-->
         <scene sceneID="TCb-sM-ap1">
             <objects>
-                <viewController id="v5S-1O-7KV" customClass="HomeViewController" customModule="ADHEED" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="v5S-1O-7KV" customClass="HomeViewController" customModule="ADHEED" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="28U-h9-J3E">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

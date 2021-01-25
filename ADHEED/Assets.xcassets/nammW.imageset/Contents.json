@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "nammW.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -22,7 +23,6 @@
           "value" : "dark"
         }
       ],
-      "filename" : "nammW.png",
       "idiom" : "universal",
       "scale" : "1x"
     },

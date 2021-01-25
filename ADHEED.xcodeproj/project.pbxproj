@@ -18,6 +18,7 @@
 		71A4903625B8AF7F00F2C3A5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A4903525B8AF7F00F2C3A5 /* LoginViewController.swift */; };
 		71A4903B25B8B58900F2C3A5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A4903A25B8B58900F2C3A5 /* SignUpViewController.swift */; };
 		71A4903F25B8B5F900F2C3A5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A4903E25B8B5F900F2C3A5 /* HomeViewController.swift */; };
+		71A6DC0C25BDD2AF00AE0D97 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A6DC0B25BDD2AF00AE0D97 /* Constants.swift */; };
 		B866A98B1047C382279E0413 /* Pods_ADHEED.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0486B223E022CEE5A1578AEB /* Pods_ADHEED.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		71A4903525B8AF7F00F2C3A5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		71A4903A25B8B58900F2C3A5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		71A4903E25B8B5F900F2C3A5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		71A6DC0B25BDD2AF00AE0D97 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DCF4FC217EF0840F9AD32EBB /* Pods-ADHEED.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADHEED.release.xcconfig"; path = "Target Support Files/Pods-ADHEED/Pods-ADHEED.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +85,7 @@
 			children = (
 				71A097E025B715A4009F631C /* AppDelegate.swift */,
 				71A097E225B715A4009F631C /* SceneDelegate.swift */,
+				71A6DC0925BDD08C00AE0D97 /* helpers */,
 				71A4903825B8AFA400F2C3A5 /* View Controllers */,
 				71A097E625B715A4009F631C /* Main.storyboard */,
 				71A097E925B715A5009F631C /* logo.png */,
@@ -103,6 +106,14 @@
 				715809C125BEF20700FAD135 /* sViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		71A6DC0925BDD08C00AE0D97 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				71A6DC0B25BDD2AF00AE0D97 /* Constants.swift */,
+			);
+			path = helpers;
 			sourceTree = "<group>";
 		};
 		8E6F9C5E7136AFC0BB5C838E /* Pods */ = {
@@ -234,6 +245,7 @@
 				71A097E525B715A4009F631C /* ViewController.swift in Sources */,
 				71A097E125B715A4009F631C /* AppDelegate.swift in Sources */,
 				71A097E325B715A4009F631C /* SceneDelegate.swift in Sources */,
+				71A6DC0C25BDD2AF00AE0D97 /* Constants.swift in Sources */,
 				71A4903B25B8B58900F2C3A5 /* SignUpViewController.swift in Sources */,
 				71A4903F25B8B5F900F2C3A5 /* HomeViewController.swift in Sources */,
 			);
